@@ -1,0 +1,82 @@
+.notes{
+  width: 350px;
+  height: 300px;
+  background-color: rgb(246, 173, 254);
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px  ;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.notes button{
+  width: 70px;
+  height: 40px;
+
+}
+.notescolumn{
+  
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+ 
+}
+.background form{
+  margin: 30px;
+
+}
+.background input{
+  width: 200px;
+  height: 40px;
+  border-radius: 9px;
+}
+.background button{
+  width: 80px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 9px;
+  background-color: aquamarine;
+}
+.background{
+  width: 100vw;
+  height: 200px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+}
+
+.setcompleted{
+  background-color: green;
+
+  
+}
+.notes button{
+  width: 120px;
+
+}
+.notcompleted{
+  background-color: rgb(247, 28, 28);
+
+}
+.editbtn{
+  background-color: rgb(18, 233, 28);
+  border: none;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px;
+}
+.deletebtn{
+  background-color: rgb(240, 49, 49);
+  border: none;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+}
